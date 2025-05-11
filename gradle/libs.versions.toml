@@ -1,0 +1,26 @@
+[versions]
+agp = "8.9.2"
+kotlin = "2.0.21"
+junitVersion = "1.2.1"
+composeBom = "2024.02.00"
+composeNavigation = "2.7.7"
+playServices = "24.2.0"
+heroAppsLib = "0.1.0"
+
+[libraries]
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+androidx-compose-foundation = { group = "androidx.compose.foundation", name = "foundation" }
+androidx-navigation = { group = "androidx.navigation", name = "navigation-compose", version.ref="composeNavigation"}
+google-play-services-ads = { group = "com.google.android.gms", name = "play-services-ads", version.ref = "playServices"}
+heroapps-library = { group = "com.github.SuperHich", name = "HeroAppsLib", version.ref = "heroAppsLib"}
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+

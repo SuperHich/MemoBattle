@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="start_game">Démarrez</string>
+    <string name="default_name1">Joueur 1</string>
+    <string name="default_name2">Joueur 2</string>
+    <string name="tourOf">Tour de %s</string>
+    <string name="result_winner_is">Le gagnant est : %s</string>
+    <string name="result_draw">Match nul</string>
+    <string name="results">Résultats :</string>
+    <string name="restart">Rejouer</string>
+    <string name="result_details">%1$s : %2$d points</string>
+    <string name="exit">Quitter</string>
+    <string name="rename_player">Renommer le joueur</string>
+    <string name="rename">Renommer</string>
+    <string name="cancel">Annuler</string>
+</resources>

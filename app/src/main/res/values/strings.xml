@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name" translatable="false">Memo battle</string>
+    <string name="start_game">Start</string>
+    <string name="default_name1">Player 1</string>
+    <string name="default_name2">Player 2</string>
+    <string name="tourOf">%s\'s tour</string>
+    <string name="result_winner_is">The winner is : %s</string>
+    <string name="result_draw">Draw !</string>
+    <string name="results">Results :</string>
+    <string name="restart">Restart</string>
+    <string name="result_details">%1$s : %2$d points</string>
+    <string name="exit">Exit</string>
+    <string name="rename_player">Rename player</string>
+    <string name="rename">Rename</string>
+    <string name="cancel">Cancel</string>
+</resources>
