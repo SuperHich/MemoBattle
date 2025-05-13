@@ -5,6 +5,6 @@ package com.heroapps.memobattle
  */
 object Constants {
 
-    const val FULL_PAGE_UNIT_ID = "ca-app-pub-4989116616189159/5210921467"
-    const val BANNER_UNIT_ID = "ca-app-pub-4989116616189159/1098310274"
+    const val FULL_PAGE_UNIT_ID = "ca-app-pub-4989116616189159/7404390834"
+    const val BANNER_UNIT_ID = "ca-app-pub-4989116616189159/3854118511"
 }
